@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height: 800px;
+    width:100%;
+    background-image: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.digclock{
+    height: 110px;
+    width: 540px;
+    font-size: 90px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.hrminsec{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width: 540px;
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.note{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+@media (max-width:700px) {
+    body{
+        height: 700px;
+        width:100%;}
+    .digclock{
+        height: 80px;
+        width: 300px;
+        font-size: 50px;
+    }
+    .hrminsec{
+        height: 50px;
+        width: 340px;
+        font-size: 20px;
+    }
+    .note{
+        margin-left: 23px;
+        margin-right: 23px;
+    }
+}
